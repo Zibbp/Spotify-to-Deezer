@@ -3,6 +3,8 @@
 
 Spotify to Deezer is an application which allows you to convert your Spotify playlists to Deezer playlists. No more sketchy 3rd party websites that have access to all of your songs and limit the number of tracks per conversion. It also downloads playlist information, so in the event a playlist or account is deleted, the tracks are not lost.
 
+![spotify2deezer](https://user-images.githubusercontent.com/21207065/159560991-6d6fc08a-a11e-47ee-b073-eefdc38d375c.gif)
+
 ### What Does It Do?
 
  - Converts Spotify playlists to Deezer playlists.
