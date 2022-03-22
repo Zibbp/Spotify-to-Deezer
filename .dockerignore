@@ -1,0 +1,9 @@
+node_modules
+.git
+README.md
+LICENSE
+.vscode
+npm-debug.log
+.env
+dist
+.github

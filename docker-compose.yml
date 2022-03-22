@@ -1,0 +1,17 @@
+version: "2.1"
+services:
+  spotify2deezer:
+    image: ghcr.io/zibbp/spotify-to-deezer:latest
+    container_name: spotify2deezer
+    environment:
+      - SPOTIFY_CLIENT_ID=###
+      - SPOTIFY_CLIENT_SECRET=###
+      - DEEZER_APP_ID=###
+      - DEEZER_APP_SECRET=###
+      - DEEZER_ACCESS_TOKEN=###
+      - DEEZER_FULL_SEARCH=false
+      - ARCHIVE_DEEZER_PLAYLISTS=false 
+      - TZ=America/Chicago
+    volumes:
+      - ./data:/data
+    restart: unless-stopped

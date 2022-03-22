@@ -1,0 +1,22 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cli-progress": "^3.10.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.0",
+    "inquirer": "^8.2.1",
+    "loglevel": "^1.8.0",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
